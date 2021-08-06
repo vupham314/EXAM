@@ -58,6 +58,7 @@ public class ManagePerson {
     public void showAll(){
         boolean check = true;
         for (Person person : people) {
+            check = false;
             System.out.println(person);
             System.out.println();
         }
