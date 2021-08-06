@@ -50,7 +50,9 @@ public class Main {
                 program.showAll();
             }
             case 6 -> {
-
+                System.out.println();
+                program.sortByGroupOject();
+                program.showAll();
             }
             case 7 -> {
                 return;
