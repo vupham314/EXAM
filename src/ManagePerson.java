@@ -43,15 +43,12 @@ public class ManagePerson {
         System.out.print("job: ");
         String job = scn.nextLine();
 
-        System.out.print("status vaccin: ");
-        String status = scn.nextLine();
-
         System.out.print("vaccin type: ");
         String type = scn.nextLine();
 
         Address address = createAddress();
 
-        return new Person(ID, fullName, job, status, type, address);
+        return new Person(ID, fullName, job, type, address);
     }
 
     public void addPerson(Person person){
